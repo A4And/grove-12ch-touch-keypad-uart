@@ -4,6 +4,7 @@
  *
  * Mapping:
  * 0xE1..0xE9 => 1..9
+groveKeypad12ch.config(SerialPin.P0, SerialPin.P1)
  * 0xEA       => *  (key=10)
  * 0xEB       => 0  (key=0)
  * 0xEC       => #  (key=11)
